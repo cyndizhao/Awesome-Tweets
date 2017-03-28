@@ -1,0 +1,76 @@
+.small{
+  display: inline-block;
+}
+img{
+  width: 3%;
+  height: auto;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-image: url(https://www.w3schools.com/css/img_mountains.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover;
+
+}
+.row{
+  border: thin solid black;
+  border-radius: 3px;
+  margin: 1vw;
+}
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  font-size: 4em;
+  position: relative;
+  top:20vw;
+
+}
+h1{
+  text-align: center;
+}
+p{
+  font-size: 1.1em;
+}
+.outer{
+  padding:0 3vw;
+  border:none;
+
+}
+}
+.row{
+  border:solid thin red;
+  margin: 0 2vw;
+  border-radius: 3px;
+
+}
+.container{
+  border:solid thin black;
+  border-radius: 3px;
+}
+.username{
+  font-size: 2em;
+
+}
+.centerimage{
+  text-align: center;
+  border-right: thin solid black;
+}
+h3{
+  padding-top:5%;
+  padding-bottom:5%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .left{
+    display: none;
+  }
+  .userimage{
+    display: none;
+  }
+}
