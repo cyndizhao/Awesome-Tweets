@@ -3,7 +3,7 @@ const router = Express.Router();
 const db = require('../db/conn');
 
 
-router.get('/home', function(req, res, next){
+router.get('/', function(req, res, next){
   res.render('home');
 })
 

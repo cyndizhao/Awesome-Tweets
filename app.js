@@ -20,4 +20,3 @@ app.use('/', home);
 app.listen(PORT, function () {
   console.log(`Server listening on http://localhost:${PORT}...`)
 });
-7
